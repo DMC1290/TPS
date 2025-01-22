@@ -2128,7 +2128,6 @@ GameObject:
   - component: {fileID: 1640260534}
   - component: {fileID: 1640260533}
   - component: {fileID: 1640260532}
-  - component: {fileID: 1640260531}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2136,27 +2135,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &1640260531
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640260530}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1640260532
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2219,8 +2197,8 @@ Transform:
   m_GameObject: {fileID: 1640260530}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1944056, y: 0.09641773, z: 3.8896291}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.061, y: 0.09641773, z: 3.673}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2282,7 +2260,7 @@ Transform:
   m_GameObject: {fileID: 1693055289}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.587855, y: 0.2143654, z: 3.5054245}
+  m_LocalPosition: {x: 3.49, y: 0.2143654, z: 1.972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
